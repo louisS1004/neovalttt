@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Outfit', sans-serif;
+  }
+  
+  h1, h2, h3, .font-arcade {
+    font-family: 'Chakra Petch', sans-serif;
+  }
+
+  .font-mono-code {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* Custom Arcade Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0f111e;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2a2e47;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a855f7;
+}
+
+/* Glowing Neon utility styles */
+.neon-glow-purple {
+  box-shadow: 0 0 20px -3px rgba(168, 85, 247, 0.45);
+}
+
+.neon-glow-cyan {
+  box-shadow: 0 0 20px -3px rgba(6, 182, 212, 0.45);
+}
+
+.neon-glow-orange {
+  box-shadow: 0 0 20px -3px rgba(249, 115, 22, 0.45);
+}
+
+.neon-border-purple {
+  border-color: rgba(168, 85, 247, 0.5);
+}
+
+.neon-border-cyan {
+  border-color: rgba(6, 182, 212, 0.5);
+}
+
+/* Scanlines retro effect (subtle) */
+.scanlines {
+  background: linear-gradient(
+    rgba(18, 16, 38, 0) 50%, 
+    rgba(0, 0, 0, 0.25) 50%
+  );
+  background-size: 100% 4px;
+}
+
+/* Subtle grid background */
+.arcade-grid-bg {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+}

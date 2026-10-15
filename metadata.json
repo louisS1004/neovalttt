@@ -1,0 +1,6 @@
+{
+  "name": "NEOVALT Arcade",
+  "description": "Portail moderne de jeux d'arcade originaux jouables instantanément sans téléchargement avec 20 jeux complets, classements locaux et défis quotidiens.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
